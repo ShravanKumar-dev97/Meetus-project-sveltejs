@@ -23,8 +23,13 @@
         margin-top: 5rem;
         width: 100%;
         display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        /* background-color: rebeccapurple; */
+        grid-template-columns: repeat(auto-fit, 23rem);
+        grid-gap: 1rem;
+        justify-content: center;
+        
+        /* background-color: blue; */
         
     }
+
+  
 </style>

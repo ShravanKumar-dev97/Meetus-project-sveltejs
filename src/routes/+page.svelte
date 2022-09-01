@@ -17,7 +17,7 @@
             id: "m2",
             title: "Swim Together",
             subtitle: "Let's go for some swimming",
-            description: "In this swimmin, we will have some fun",
+            description: "Let have fun at this hot summer, come lets have fun",
             imageUrl: "https://madewithnetworkfra.fra1.digitaloceanspaces.com/spatie-space-production/28498/svelte-cubed.jpg",
             address: "07th Nerd Road, 32523 London",
             contactEmail: "funsumming@test.com"
