@@ -43,13 +43,15 @@
         font-family: 'Roboto Slab', serif;
         width: 100%;
         
-        /* background-color: yellowgreen; */
+        background-color: white;
         display: flex;
         flex-direction: column;
+        padding: 0.5rem;
     }
 
     header, .content, footer{
         padding: 0.8rem;
+        background-color: transparent;
     }
 
     footer{
@@ -60,37 +62,42 @@
     .image{
         width: 100%;
         height: 14rem;
+        
     }
 
     .image img{
+        
         width: 100%;
         height: 100%;
         object-fit: cover;
+        
     }
 
     h1{
         font-size: 1.5rem;
         margin: 0;
         color: #2061c1d9;
+        background-color: transparent;
     }
 
     h2{
         font-size: 0.8rem;
         font-weight: 100;
         margin: 0;
-        
+        background-color: transparent;
         color: rgb(123, 123, 123);
     }
     h3{
         font-size: 1rem;
         font-weight: lighter;
         margin-bottom: 0;
-        
+        background-color: transparent;
     }
 
     p{
         text-align: right;
         margin: 0;
+        background-color: transparent;
     }
 
     button{
@@ -98,7 +105,7 @@
         border: none;
         border-radius: 4px;
         color: white;
-        padding: 5px;
+        padding: 7px 12px;
         text-align: center;
         align-items: center;
         text-decoration: none;

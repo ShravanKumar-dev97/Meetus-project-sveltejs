@@ -13,18 +13,18 @@
         {
             id: "m1",
             title: "Coding Bootcamp",
-            subtitle: "Learn to code in 2 hours",
-            description: "In this meetup, we will have some experts that teach Svelte",
-            imageUrl: "https://madewithnetworkfra.fra1.digitaloceanspaces.com/spatie-space-production/28498/svelte-cubed.jpg",
+            subtitle: "Learn about code basics",
+            description: "In this meetup, we will go thorugh basics to advance leaning step by step",
+            imageUrl: "https://s3-us-west-2.amazonaws.com/robogarden-new/Articles/upload/blogs/lg-leverage-of-coding.jpg",
             address: "27th Nerd Road, 32523 New York",
             contactEmail: "code@test.com"
         },
         {
             id: "m2",
-            title: "Swim Together",
-            subtitle: "Let's go for some swimming",
-            description: "Let have fun at this hot summer, come lets have fun",
-            imageUrl: "https://madewithnetworkfra.fra1.digitaloceanspaces.com/spatie-space-production/28498/svelte-cubed.jpg",
+            title: "Learn Svelte",
+            subtitle: "Svelte is a free and open-source front end compiler",
+            description: "created by Rich Harris and maintained by the Svelte core team members.",
+            imageUrl: "https://blog.webjeda.com/assets/thumbs/why-svelte.png",
             address: "07th Nerd Road, 32523 London",
             contactEmail: "funsumming@test.com"
         }
@@ -94,52 +94,56 @@
 
 <style>
     main{
-         font-family: 'Roboto Slab', serif;
+        position: relative;
+        font-family: 'Roboto Slab', serif;
+        margin: 0;
+        padding: 0;
     }
 
     form{
-        margin-top: 5rem;
         width: 50%;
         margin-left: 25%;
+      
     }
 
-  input,
-textarea {
-  display: block;
-  width: 100%;
-  border: none;
-  border-bottom: 2px solid #ccc;
-  border-radius: 3px 3px 0 0;
-  background: white;
-  padding: 0.15rem 0.25rem;
-  transition: border-color 0.1s ease-out;
-}
+    input,
+    textarea {
+        display: block;
+        width: 100%;
+        border: none;
+        background: white;
+        padding: 0.15rem 0.25rem;
+        transition: border-color 0.1s ease-out;
+        border-radius: 0.25rem;
+        border: 1px solid rgb(67, 67, 67);
+        background-color: transparent;
+    }
 
-input:focus,
-textarea:focus {
-  border-color: #2061c1d9;
-  outline: none;
-}
+    input:focus,
+    textarea:focus {
+        border-color: #2061c1d9;
+        outline: none;
+        
+    }
 
-label {
-  display: block;
-  margin-bottom: 0.5rem;
-  width: 100%;
-}
+    label {
+    display: block;
+        margin-bottom: 0.5rem;
+        width: 100%;
+    }
 
-.form-control {
-  padding: 0.5rem 0;
-  width: 100%;
-  margin: 0.25rem 0;
-  
-}
+    .form-control {
+        padding: 0.5rem 0;
+        width: 100%;
+        margin: 0.25rem 0;
+    }
 
     button{
         background-color: rgba(32, 97, 193, 0.947);
         border: none;
         border-radius: 4px;
         color: white;
-        padding:  5px 25px;
+        padding:  6px 25px;
         text-align: center;
         align-items: center;
         text-decoration: none;
@@ -149,5 +153,7 @@ label {
         cursor: pointer;
     }
 
+
+    
 
 </style>

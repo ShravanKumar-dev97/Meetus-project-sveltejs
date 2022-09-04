@@ -1,14 +1,13 @@
 <style>
 
     header{
-        position: fixed;
+        /* position: fixed;
         top: 0;
-        left: 0;
+        left: 0; */
         height: 4rem;
         width: 100%;
         display: flex;
         justify-content: center;
-        position: fixed;
         align-items: center;
         box-shadow: 0 2px 6px rgba(0,0,0,0.4);
         background-color: rgba(32, 97, 193, 0.947)
@@ -20,6 +19,7 @@
         font-size: 2em;
         margin: 0;
         letter-spacing: 2px;
+        background-color: transparent;
     }
 </style>
 

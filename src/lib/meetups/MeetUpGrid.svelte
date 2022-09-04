@@ -20,15 +20,12 @@
 
 <style>
     section{
-        margin-top: 5rem;
+        margin-top: 4rem;
         width: 100%;
         display: grid;
         grid-template-columns: repeat(auto-fit, 23rem);
-        grid-gap: 1rem;
+        grid-gap: 3rem;
         justify-content: center;
-        
-        /* background-color: blue; */
-        
     }
 
   
